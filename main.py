@@ -628,10 +628,9 @@ if __name__ == '__main__':
 
     parser.add_argument('--dataset', type=str, default='COVID-19')
     parser.add_argument('--graph', type=str, default='nn')
-    parser.add_argument('--resroot', type=str, default='../MP_STGODE-master/artifacts')
-    parser.add_argument('--output_dir', type=str, default='../MP_STGODE-master/output_stgode_mob')
-    parser.add_argument('--data_pkl', type=str,
-                        default='../MP_STGODE-master/datasets/Epi_data/Data_meta_stgode_causal7.pkl')
+    parser.add_argument('--resroot', type=str, default='artifacts')
+    parser.add_argument('--output_dir', type=str, default='output_stgode_mob')
+    parser.add_argument('--data_pkl', type=str, default='data/Data_meta_stgode_causal7.pkl')
     parser.add_argument('--device', type=str, default='cuda:0' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--model', type=str, default='STGODE')
     parser.add_argument('--num_nodes', type=int, default=51)
