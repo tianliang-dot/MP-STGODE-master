@@ -18,7 +18,7 @@ This repository contains the source code for MP-STGODE, a metapopulation-based s
 
 ## Environment
 
-The requirements were prepared from the local `pinnstorch_master` conda environment with Python 3.9.19.
+The requirements were prepared from the local `mpstgode_master` conda environment with Python 3.9.19.
 
 ```bash
 conda create -n mp-stgode python=3.9.19
